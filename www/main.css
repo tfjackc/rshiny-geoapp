@@ -1,0 +1,224 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin-bottom: 0px !important;
+  justify-content: left;
+  margin-left: 0 !important;
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.navbar-brand {
+  font-family: Consolas;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  margin-left: 0 !important;
+  color: #ffffff !important;
+}
+
+
+.nav.navbar-nav {
+  display: none !important;
+}
+
+
+#eqMap {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 60px;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+  justify-content: left !important;
+  
+}
+
+.container {
+  position: fixed;
+  top: 60px;
+  left: 160px;
+  display: flex;
+  width: 320px;
+  margin-top: 12px;
+  justify-content: left;
+  align-items: center;
+  background-color: rgba(211, 211, 211, 0.9);
+  border-radius: 5px;
+  z-index: 9999; /* Ensure the container is above other elements */
+  box-shadow: 5.1px 10.2px 10.2px hsl(0deg 0% 0% / 0.34);
+}
+
+
+.container .content {
+  display: none;
+}
+
+
+#dbovermap {
+  position: fixed;
+  right: 12px;
+  bottom: 80px;
+  width: 600px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  /*background-color: rgba(211, 211, 211, 0.9);*/
+  border-radius: 5px;
+  z-index: 1000; /* Ensure the container is above other elements */
+  display: flex;
+  opacity:0.7;
+
+}
+
+/* display: none to make it disappear */
+#dbscan_plot {
+  display: block;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+
+#filter {
+  position: fixed;
+  top: 60px;
+  left: 50px;
+  height: 40px;
+  width: 80px;
+  margin-top: 12px;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5.1px 10.2px 10.2px hsl(0deg 0% 0% / 0.34);
+}
+
+#check_box {
+  position: fixed;
+  left: 0;
+  top: 395px;
+  margin-top: 12px;
+  margin-left: 2px;
+  border-radius: 5px;
+  padding: 5px;
+  z-index: 5000;
+  background-color: "#e9e9ed";
+}
+
+.checkbox {
+  background-color: #e9e9ed;
+  width: 130px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-left: 5px;
+  padding-left: 5px;
+  box-shadow: 5.1px 10.2px 10.2px hsl(0deg 0% 0% / 0.34);
+  border-radius: 5px;
+}
+  
+#toggle {
+  width: 138px;
+}
+  
+  
+}
+
+#plotButton {
+  position: fixed;
+  top: 55px;
+  left: 50px;
+  height: 40px;
+  width: 80px;
+  margin-top: 12px;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 5.1px 10.2px 10.2px hsl(0deg 0% 0% / 0.34);
+}
+
+.accordion-item {
+  margin-bottom: 14px;
+}
+
+.accordion-button {
+  background-color: #343a40;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  z-index: 9999;
+}
+
+.accordion-button:hover {
+  background-color: #428bca;
+}
+
+.accordion-body {
+  padding: 10px;
+  background-color: transparent;
+}
+
+img {
+  border-radius: 5px;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+/*
+.jqui_wrapper {
+  right: 12px;
+  bottom: 80px;
+  width: 600px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(211, 211, 211, 0.9);
+  border-radius: 5px;
+  z-index: 1000; 
+  display: flex;
+  opacity:0.7;
+}
+*/
+
+#DataTables_Table_0_wrapper {
+  max-height: 417px;
+  overflow: auto;
+}
+
+/*
+@media only screen and (max-width: 576px) {
+  #dbovermap #dbscan_plot {
+    width: 400px !important;
+    height: 400px !important;
+  }
+}
+*/
+
+
+
+
